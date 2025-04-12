@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Some components in react with styles from the 7.css library.",
   "dependencies": {
     "7.css": "^0.18.0",
     "jsdoc": "^4.0.4",
