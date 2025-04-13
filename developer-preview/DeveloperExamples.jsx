@@ -176,7 +176,7 @@ export default function App() {
             <Spacer />
             <GroupBox7>
                 <GroupBoxLegend7>
-                    Today's mood
+                    Today&apos;s mood
                 </GroupBoxLegend7>
                 <GroupBoxRadio7 id="radio1" name="fieldset3">
                     Claire Saffitz
@@ -471,7 +471,7 @@ export default function App() {
                     </p>
                     <p>
                         Read more at <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role"
-                            target="_blank">MDN Web docs - ARIA: tab role</a>
+                            target="_blank" rel="noreferrer">MDN Web docs - ARIA: tab role</a>
                     </p>
                 </TabPanel7>
                 <TabPanel7 hidden={false} id="tab2">

@@ -36,7 +36,7 @@ export function TreeViewNode7({ children, details = false, open = false, list, s
                             {
                                 list.map(function(treeViewNode){
                                     return (
-                                        <TreeViewNode7>
+                                        <TreeViewNode7 key={treeViewNode}>
                                             {treeViewNode}
                                         </TreeViewNode7>
                                     )

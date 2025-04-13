@@ -27,7 +27,7 @@ export function ListBoxComplex7({ children, shadow = true, hover = true, list, .
             {
                 list.map(function(option){
                     return (
-                       <GetArrayComponent Component={ListBoxComplexOption7} value={option}/>
+                       <GetArrayComponent Component={ListBoxComplexOption7} value={option} key={option}/>
                     )
                 })
             }

@@ -24,7 +24,7 @@ export function ListBox7({ children, list, ...props }) {
             {
                 list && (
                     list.map(function(option){
-                        return <GetArrayComponent Component={ListBoxOption7} value={option}/>
+                        return <GetArrayComponent Component={ListBoxOption7} value={option} key={option}/>
                     })
                 )
             }

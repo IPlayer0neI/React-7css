@@ -25,7 +25,7 @@ export function TreeView7({ children, collapse = false, connector = false, conta
             {
                 list && list.map(function(treeViewNode){
                     return (
-                        <TreeViewNode7>
+                        <TreeViewNode7 key={treeViewNode}>
                             {treeViewNode}
                         </TreeViewNode7>
                     )
