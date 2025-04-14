@@ -1,5 +1,5 @@
-import { conditionString } from "../../utils/ternaryDie"
-import { TreeViewNode7 } from "./TreeViewNode7"
+import { conditionString } from "../../utils/ternaryDie";
+import { TreeViewNode7 } from "./TreeViewNode7";
 
 /**
  * A tree view control is a special list box control that displays a set of objects as an indented outline based on their logical hierarchical relationship.
@@ -23,7 +23,7 @@ export function TreeView7({ children, collapse = false, connector = false, conta
             {...props}
         >
             {
-                list && list.map(function(treeViewNode){
+                list && list.map(function (treeViewNode) {
                     return (
                         <TreeViewNode7 key={treeViewNode}>
                             {treeViewNode}

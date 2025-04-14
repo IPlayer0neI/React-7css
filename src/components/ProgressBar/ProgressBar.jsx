@@ -1,4 +1,4 @@
-import { conditionString } from "../../utils/ternaryDie"
+import { conditionString } from "../../utils/ternaryDie";
 
 /**
  * "div" element with role="progressbar".

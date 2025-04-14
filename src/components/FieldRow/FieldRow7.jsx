@@ -3,7 +3,7 @@
  * @param {object} props
  * @param {React.ReactNode} [props.children]
  */
-export function FieldRow7({ children, ...props }){
+export function FieldRow7({ children, ...props }) {
     return (
         <div className="field-row" {...props}>
             {children}

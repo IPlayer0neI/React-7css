@@ -1,7 +1,7 @@
-import { ComboBoxInput7 } from "./ComboBoxInput7"
-import { ComboBoxButton7 } from "./ComboBoxButon7"
-import { ComboBoxSelected7 } from "./ComboBoxSelected7"
-import { ComboBoxOption7 } from "./ComboBoxOption7"
+import { ComboBoxInput7 } from "./ComboBoxInput7";
+import { ComboBoxButton7 } from "./ComboBoxButon7";
+import { ComboBoxSelected7 } from "./ComboBoxSelected7";
+import { ComboBoxOption7 } from "./ComboBoxOption7";
 
 /**
  * A combo box is a combination of a standard list box or a drop-down list and an editable text box, thus allowing users to enter a value that isn't in the list.

@@ -1,4 +1,4 @@
-import { FieldRow7 } from "../FieldRow/FieldRow7"
+import { FieldRow7 } from "../FieldRow/FieldRow7";
 
 /**
  * "div" element with class "is-vertical" with an "input" with type="range" inside.
@@ -10,7 +10,7 @@ export function SliderVertical7({ field, ...props }) {
         return (
             <FieldRow7>
                 <div className="is-vertical">
-                    <input type="range" {...props}/>
+                    <input type="range" {...props} />
                 </div>
             </FieldRow7>
         )
@@ -18,7 +18,7 @@ export function SliderVertical7({ field, ...props }) {
 
     return (
         <div className="is-vertical">
-            <input type="range" {...props}/>
+            <input type="range" {...props} />
         </div>
     )
 }

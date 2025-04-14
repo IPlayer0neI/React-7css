@@ -1,4 +1,4 @@
-import { FieldRow7 } from "../FieldRow/FieldRow7"
+import { FieldRow7 } from "../FieldRow/FieldRow7";
 
 /**
  * A check box represents an independent or non-exclusive choice.

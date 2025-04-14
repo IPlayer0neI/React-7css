@@ -1,4 +1,3 @@
-
 /**
  * "div" element with role="option".
  * @param {object} props 
@@ -11,4 +10,3 @@ export function ComboBoxOption7({ children, ...props }) {
         </div>
     )
 }
-const h = <ComboBoxOption7/>

@@ -5,7 +5,7 @@ import { GetArrayComponent } from "../../utils/GetArrayComponent";
  * @typedef {Array}  DropdowOptionListItemArray
  * @property {string} 0
  * @property {"selected"} 1
- */ 
+ */
 
 /**
  * @typedef {string | DropdowOptionListItemArray} DropdowOptionItem 

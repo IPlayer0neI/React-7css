@@ -1,5 +1,3 @@
-import React from "react"
-
 /**
  * @property {object} Vertical
  * @property {"is-top"} top
@@ -27,14 +25,14 @@ const Horizontal = {
  * @param {("top" | "bottom")} [props.vertical="top"] To change the position of the balloon, which subsequently changes the positioning of its tail, combine the respective vertical values.
  * @param {("left" | "right")} [props.horizontal="right"] To change the position of the balloon, which subsequently changes the positioning of its tail, combine the respective horizontal values.
  */
-export function Ballon7({ children,  vertical = "top", horizontal = "right", ...props }) {
+export function Ballon7({ children, vertical = "top", horizontal = "right", ...props }) {
     return (
         <div role="tooltip"
             className={`
         ${Vertical[vertical]}
         ${Horizontal[horizontal]}   
         `}
-        {...props}
+            {...props}
         >
             {children}
         </div>

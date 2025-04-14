@@ -1,4 +1,3 @@
-import React from "react";
 import { conditionString } from "../../utils/ternaryDie";
 import { MenuBarItem7 } from "./MenuBarItem7";
 
@@ -15,7 +14,7 @@ export function MenuBar7({ children, hover = true, list, ...props }) {
         <ul role="menubar" className={conditionString(hover, "can-hover")} {...props}>
             {children}
             {
-                list && list.map(function(item, index){
+                list && list.map(function (item, index) {
                     return (
                         <MenuBarItem7 key={index}>
                             {item}

@@ -1,4 +1,4 @@
-import { conditionString, dieTernary } from "../../utils/ternaryDie";
+import { dieTernary } from "../../utils/ternaryDie";
 import { FieldRow7 } from "../FieldRow/FieldRow7";
 import { FieldRowStacked7 } from "../FieldRow/FieldRowStacked";
 
@@ -14,7 +14,7 @@ export function TextArea7({ children, id, stacked = false, ...props }) {
     return (
         <FieldRowComponent>
             <label htmlFor={id}>{children}</label>
-            <textarea id={id} {...props}/>
+            <textarea id={id} {...props} />
         </FieldRowComponent>
     )
 }

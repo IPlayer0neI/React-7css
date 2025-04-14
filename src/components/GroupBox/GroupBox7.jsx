@@ -19,7 +19,7 @@ export function GroupBox7({ children, legend, list, name, ...props }) {
                     </GroupBoxLegend7>
                 )
             }
-            
+
             {children}
             {
                 list && list.map(function (label) {

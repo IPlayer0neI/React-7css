@@ -1,5 +1,3 @@
-
-
 /**
  * Eu odeio a sintaxe de ternário, namoral.
  * condition ? firstValue : secondValue

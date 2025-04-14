@@ -1,4 +1,4 @@
-import { TabMenuItem7 } from "./TabMenuItem7"
+import { TabMenuItem7 } from "./TabMenuItem7";
 
 /**
  * "menu" element with role="tablist".

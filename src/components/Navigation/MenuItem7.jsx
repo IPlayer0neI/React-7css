@@ -1,5 +1,4 @@
-import React from "react"
-import { conditionObject, conditionString, dieTernary } from "../../utils/ternaryDie"
+import { conditionString, dieTernary } from "../../utils/ternaryDie";
 
 /**
  * "li" element.

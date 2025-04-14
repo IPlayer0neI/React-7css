@@ -1,5 +1,5 @@
-import { SearchInput7 } from "./SearchInput7"
-import { SearchButton7 } from "./SearchButton7"
+import { SearchInput7 } from "./SearchInput7";
+import { SearchButton7 } from "./SearchButton7";
 
 /**
  * With a Search box, users can quickly locate specific objects or text within a large set of data by filtering or highlighting matches.

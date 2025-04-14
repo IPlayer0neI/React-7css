@@ -16,11 +16,11 @@ export function Tabs7({ children, listMenu, listPanel, ...props }) {
     return (
         <section className="tabs" {...props}>
             {
-                listMenu && <TabMenu7 list={listMenu}/>
+                listMenu && <TabMenu7 list={listMenu} />
             }
             {children}
             {
-                listPanel && listPanel.map(function(panel, index){
+                listPanel && listPanel.map(function (panel, index) {
                     return (
                         <TabPanel7 key={index}>
                             {panel}

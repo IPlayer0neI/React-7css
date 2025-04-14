@@ -1,12 +1,12 @@
-import { conditionString } from "../../utils/ternaryDie"
-import { ListBoxComplexOption7 } from "./ListBoxComplexOption7"
-import { GetArrayComponent } from "../../utils/GetArrayComponent"
+import { conditionString } from "../../utils/ternaryDie";
+import { ListBoxComplexOption7 } from "./ListBoxComplexOption7";
+import { GetArrayComponent } from "../../utils/GetArrayComponent";
 
 /**
  * @typedef {Array}  ListBoxComplexItemArray
  * @property {string} 0
  * @property {"selected"} 1
- */ 
+ */
 
 /**
  * @typedef {string|ListBoxComplexItemArray} ListBoxComplexItem
@@ -25,9 +25,9 @@ export function ListBoxComplex7({ children, shadow = true, hover = true, list, .
         <ul role="listbox" className={`${conditionString(shadow, "has-shadow")} ${conditionString(hover, "has-hover")}`} {...props}>
             {children}
             {
-                list.map(function(option){
+                list.map(function (option) {
                     return (
-                       <GetArrayComponent Component={ListBoxComplexOption7} value={option} key={option}/>
+                        <GetArrayComponent Component={ListBoxComplexOption7} value={option} key={option} />
                     )
                 })
             }

@@ -1,4 +1,4 @@
-import { conditionString } from "../../utils/ternaryDie"
+import { conditionString } from "../../utils/ternaryDie";
 
 /**
  * Menus are hierarchical lists of commands or options available to users in the current context.

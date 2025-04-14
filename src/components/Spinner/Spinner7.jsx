@@ -5,7 +5,7 @@ import { conditionString } from "../../utils/ternaryDie";
  * @param {object} props
  * @param {boolean} [props.animate] To animate the spinner, add an animate value.
  */
-export function Spinner7({ animate, ...props }){
+export function Spinner7({ animate, ...props }) {
     return (
         <span className={`loader ${conditionString(animate, "animate")}`} {...props}></span>
     )

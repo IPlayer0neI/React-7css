@@ -1,5 +1,5 @@
-import { conditionObject } from "../../utils/ternaryDie"
-import { TreeView7 } from "./TreeView7"
+import { conditionObject } from "../../utils/ternaryDie";
+import { TreeView7 } from "./TreeView7";
 
 /**
  * "li" element.
@@ -34,7 +34,7 @@ export function TreeViewNode7({ children, details = false, open = false, list, s
                     list && (
                         <TreeView7>
                             {
-                                list.map(function(treeViewNode){
+                                list.map(function (treeViewNode) {
                                     return (
                                         <TreeViewNode7 key={treeViewNode}>
                                             {treeViewNode}

@@ -1,11 +1,11 @@
-import { GetArrayComponent } from "../../utils/GetArrayComponent"
-import { ListBoxOption7 } from "./ListBoxOption7"
+import { GetArrayComponent } from "../../utils/GetArrayComponent";
+import { ListBoxOption7 } from "./ListBoxOption7";
 
 /**
  * @typedef {Array}  ListBoxComplexItemArray
  * @property {string} 0
  * @property {"selected"} 1
- */ 
+ */
 
 /**
  * @typedef {string|ListBoxComplexItemArray} ListBoxItem
@@ -23,8 +23,8 @@ export function ListBox7({ children, list, ...props }) {
             {children}
             {
                 list && (
-                    list.map(function(option){
-                        return <GetArrayComponent Component={ListBoxOption7} value={option} key={option}/>
+                    list.map(function (option) {
+                        return <GetArrayComponent Component={ListBoxOption7} value={option} key={option} />
                     })
                 )
             }

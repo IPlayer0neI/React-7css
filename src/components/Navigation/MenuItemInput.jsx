@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * "input" and "label" elements.
  * @param {object} props

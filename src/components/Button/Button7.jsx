@@ -6,7 +6,7 @@ import { conditionString } from "../../utils/ternaryDie";
  * @param {React.ReactNode} [props.children]
  * @param {boolean} [props.classDefault=false] A default button (in Windows, hitting the Enter key in a dialog context triggers the button) has a greenish-blue border and a light blue gradient shade.
  */
-export function Button7({ children, classDefault = false, ...props }){
+export function Button7({ children, classDefault = false, ...props }) {
     return (
         <button className={conditionString(classDefault, "default")} {...props}>
             {children}
