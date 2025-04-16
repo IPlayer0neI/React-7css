@@ -15,15 +15,15 @@ import React from "react";
 
 /**
  * @typedef {object} ListBoxComplex7Props
- * @property {React.ReactNode} [props.children]
- * @property {boolean} [props.shadow=true] To add a drop shadow to the list box, use the shadow value.
- * @property {boolean} [props.hover=true]  To add a hovering style on the list box items, use the hover value.
- * @property {ListBoxComplexItem[]} [props.list] A list of "li" elements with role="option". An array can be used where the second value represents the value of "selected".
+ * @property {React.ReactNode} [children]
+ * @property {boolean} [shadow=true] To add a drop shadow to the list box, use the shadow value.
+ * @property {boolean} [hover=true]  To add a hovering style on the list box items, use the hover value.
+ * @property {ListBoxComplexItem[]} [list] A list of "li" elements with role="option". An array can be used where the second value represents the value of "selected".
  */
 
 /**
  * "ul" element with role="listbox".
- * @param {ListBoxComplex7Props | React.ComponentProps.<"ul">}
+ * @param {ListBoxComplex7Props | React.Component<"ul">}
  * @returns {React.ReactNode}
  */
 export function ListBoxComplex7({ children, shadow = true, hover = true, list, ...props }) {

@@ -1,11 +1,11 @@
 /**
  * @typedef {object} StatusBarField7Props 
- * @property {React.ReactNode} [props.children]
+ * @property {React.ReactNode} [children]
  */
 
 /**
  * "p" element with class "status-bar-field".
- * @param {StatusBarField7Props | React.ComponentProps.<"p">} props 
+ * @param {StatusBarField7Props | React.Component<"p">} props 
  * @returns {React.ReactNode}
  */
 export function StatusBarField7({ children, ...props }){

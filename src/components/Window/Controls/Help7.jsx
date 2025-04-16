@@ -1,6 +1,6 @@
 /**
  * "button" element with aria-label="Help".
- * @param {React.ComponentProps.<"button">} props 
+ * @param {React.Component<"button">} props 
  * @returns {React.ReactNode}
  */
 export function Help7({ ...props }) {

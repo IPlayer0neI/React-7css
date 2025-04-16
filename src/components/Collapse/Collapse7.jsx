@@ -2,13 +2,13 @@ import { CollapseSummary7 } from "./CollapseSummary7";
 
 /**
  * @typedef {object} Collapse7Props 
- * @property {React.ReactNode} [props.children] 
- * @property {string} [props.summary] Automatically puts text in the "summary".
+ * @property {React.ReactNode} [children] 
+ * @property {string} [summary] Automatically puts text in the "summary".
  */
 
 /**
  * Users can show or hide additional information including data, options, or commands.
- * @param {Collapse7Props | React.ComponentProps.<"details">} props
+ * @param {Collapse7Props | React.Component<"details">} props
  * @returns {React.ReactNode}
  */
 export function Collapse7({ children, summary, ...props }) {

@@ -1,11 +1,11 @@
 /**
  * @typedef {object} MenuItemText7Props 
- * @property {React.ReactNode} [props.children]
+ * @property {React.ReactNode} [children]
  */
 
 /**
  * "a" element.
- * @param {MenuItemText7Props | React.ComponentProps.<"a">} props 
+ * @param {MenuItemText7Props | React.Component<"a">} props 
  * @returns {React.ReactNode}
  */
 export function MenuItemText7({ children, ...props }) {

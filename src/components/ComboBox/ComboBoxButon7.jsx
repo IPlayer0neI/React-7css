@@ -1,11 +1,11 @@
 /**
  * @typedef {object} ComboBoxButton7Props 
- * @property {React.ReactNode} [props.children]
+ * @property {React.ReactNode} [children]
  */
 
 /**
  * "button" element.
- * @param {ComboBoxButton7Props | React.ComponentProps.<"button">}
+ * @param {ComboBoxButton7Props | React.Component<"button">}
  * @returns {React.ReactNode}
  */
 export function ComboBoxButton7({ children, ...props }) {

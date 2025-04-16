@@ -1,6 +1,6 @@
 /**
  * "button" element.
- * @param {React.ComponentProps.<"button">} props 
+ * @param {React.Component<"button">} props 
  * @returns {React.ReactNode}
  */
 export function SearchButton7({ ...props }) {

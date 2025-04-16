@@ -3,14 +3,14 @@ import { MenuBarItem7 } from "./MenuBarItem7";
 
 /**
  * @typedef {object} MenuBar7Props
- * @property {React.ReactNode} [props.children]
- * @property {boolean} [props.hover] To add the hovering/mouse-over trigger, you can add a hover value.
- * @property {string[]} [props.list]  A list of "option" elements.
+ * @property {React.ReactNode} [children]
+ * @property {boolean} [hover] To add the hovering/mouse-over trigger, you can add a hover value.
+ * @property {string[]} [list]  A list of "option" elements.
  */
 
 /**
  * "ul" element with role="menubar".
- * @param {MenuBar7Props | React.ComponentProps.<"ul">}
+ * @param {MenuBar7Props | React.Component<"ul">}
  * @returns {React.ReactNode}
  */
 export function MenuBar7({ children, hover = true, list, ...props }) {

@@ -1,6 +1,6 @@
 /**
  * "input" element with type="search".
- * @param {React.ComponentProps.<"input">} props
+ * @param {React.Component<"input">} props
  * @returns {React.ReactNode}
  */
 export function SearchInput7({ ...props }) {

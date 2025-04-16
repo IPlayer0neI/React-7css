@@ -2,14 +2,14 @@ import { conditionString, dieTernary } from "../../utils/ternaryDie";
 
 /**
  * @typedef {object} MenuItem7Props 
- * @property {React.ReactNode} [props.children]
- * @property {string} [props.imgLink] Place a link to place an image on the left side.
- * @property {boolean} [props.divider] Use a divider value to make a horizontal line after the menu item.
+ * @property {React.ReactNode} [children]
+ * @property {string} [imgLink] Place a link to place an image on the left side.
+ * @property {boolean} [divider] Use a divider value to make a horizontal line after the menu item.
  */
 
 /**
  * "li" element.
- * @param {MenuItem7Props | React.ComponentProps.<"li">} props 
+ * @param {MenuItem7Props | React.Component<"li">} props 
  * @returns {React.ReactNode}
  */
 export function MenuItem7({ children, imgLink, divider, ...props }) {

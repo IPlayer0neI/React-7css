@@ -1,6 +1,6 @@
 /**
  * "button" element with aria-label="Maximize".
- * @param {React.ComponentProps.<"button">} props
+ * @param {React.Component<"button">} props
  * @returns {React.ReactNode}
  */
 export function Maximize7({ ...props }) {

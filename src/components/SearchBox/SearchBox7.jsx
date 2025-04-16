@@ -3,15 +3,15 @@ import { SearchButton7 } from "./SearchButton7";
 
 /**
  * @typedef {object} SearchBox7Props 
- * @property {React.ReactNode} [props.children]
- * @property {boolean} [props.input=true] Automatically place an "input".
- * @property {boolean} [props.button=false] Automatically places a "button".
- * @property {string} [props.placeholder]  Placeholder property for "input".
+ * @property {React.ReactNode} [children]
+ * @property {boolean} [input=true] Automatically place an "input".
+ * @property {boolean} [button=false] Automatically places a "button".
+ * @property {string} [placeholder]  Placeholder property for "input".
  */
 
 /**
  * With a Search box, users can quickly locate specific objects or text within a large set of data by filtering or highlighting matches.
- * @param {SearchBox7Props | React.ComponentProps.<"div">} props 
+ * @param {SearchBox7Props | React.Component<"div">} props 
  * @returns {React.ReactNode}
  */
 export function SearchBox7({ children, input = true, button = false, placeholder, ...props }) {

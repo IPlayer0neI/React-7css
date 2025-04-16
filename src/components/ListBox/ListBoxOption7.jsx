@@ -1,6 +1,6 @@
 /**
  * @typedef {object} ListBoxOption7Props
- * @property {React.ReactNode} [props.children]
+ * @property {React.ReactNode} [children]
  */
 
 /**

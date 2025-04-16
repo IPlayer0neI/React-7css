@@ -1,6 +1,6 @@
 /**
  * "button" element with aria-label="Minimize".
- * @param {React.ComponentProps.<"button">} props
+ * @param {React.Component<"button">} props
  * @returns {React.ReactNode}
  */
 export function Minimize7({ ...props }) {

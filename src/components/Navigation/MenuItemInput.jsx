@@ -1,15 +1,15 @@
 
 /**
  * @typedef {object} MenuItemInput7Props 
- * @property {React.ReactNode} [props.children]
- * @property {string} [props.id] Automatically puts the "id" in the "input" and "label"
- * @property {string} [props.legend] You can provide your group with a label by placing a legend value.
- * @property {"radio"|"checkbox"} [props.type="radio"] "Type" property with only two values.
+ * @property {React.ReactNode} [children]
+ * @property {string} [id] Automatically puts the "id" in the "input" and "label"
+ * @property {string} [legend] You can provide your group with a label by placing a legend value.
+ * @property {"radio"|"checkbox"} [type="radio"] "Type" property with only two values.
  */
 
 /**
  * "input" and "label" elements.
- * @param {MenuItemInput7Props | React.ComponentProps.<"input">} props 
+ * @param {MenuItemInput7Props | React.Component<"input">} props 
  * @returns {React.ReactNode}
 */
 export function MenuItemInput7({ id, legend, type = "radio", children, ...props }) {

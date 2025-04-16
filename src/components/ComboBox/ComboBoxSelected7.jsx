@@ -1,11 +1,11 @@
 /**
  * @typedef {object} ComboBoxSelected7Props 
- * @property {React.ReactNode} [props.children]
+ * @property {React.ReactNode} [children]
  */
 
 /**
  * "ul" element with role="listbox".
- * @param {ComboBoxSelected7Props | React.ComponentProps.<"ul">}
+ * @param {ComboBoxSelected7Props | React.Component<"ul">}
  * @returns {React.ReactNode}
  */
 export function ComboBoxSelected7({ children, ...props }) {
