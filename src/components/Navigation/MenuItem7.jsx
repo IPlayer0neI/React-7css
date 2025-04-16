@@ -9,7 +9,7 @@ import { conditionString, dieTernary } from "../../utils/ternaryDie";
 
 /**
  * "li" element.
- * @param {MenuItem7Props | React.Component<"li">} props 
+ * @param {MenuItem7Props | React.ComponentProps<"li">} props 
  * @returns {React.ReactNode}
  */
 export function MenuItem7({ children, imgLink, divider, ...props }) {

@@ -29,7 +29,7 @@ const Horizontal = {
 
 /**
  * A balloon is a small pop-up window that informs users of a non-critical problem or special condition in a control.
- * @param {Ballon7Props | React.Component<"div">} props
+ * @param {Ballon7Props | React.ComponentProps<"div">} props
  * @returns {React.ReactNode}
  */
 export function Ballon7({ children, vertical = "top", horizontal = "right", ...props }) {

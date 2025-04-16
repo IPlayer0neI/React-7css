@@ -1,6 +1,6 @@
 /**
  * "div" element with role="progressbar" and class "marquee".
- * @param {React.Component<"div">} props 
+ * @param {React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
 export function ProgressBarMarquee({ ...props }) {

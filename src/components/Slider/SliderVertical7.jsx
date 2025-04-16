@@ -7,7 +7,7 @@ import { FieldRow7 } from "../FieldRow/FieldRow7";
 
 /**
  * "div" element with class "is-vertical" with an "input" with type="range" inside.
- * @param {SliderVertical7Props | React.Component<"input">} props 
+ * @param {SliderVertical7Props | React.ComponentProps<"input">} props 
  * @returns {React.ReactNode}
  */
 export function SliderVertical7({ field, ...props }) {

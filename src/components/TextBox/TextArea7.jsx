@@ -11,7 +11,7 @@ import { FieldRowStacked7 } from "../FieldRow/FieldRowStacked";
 
 /**
  * "textarea" and "label" elements.
- * @param {TextArea7Props | React.Component<"textarea">} props 
+ * @param {TextArea7Props | React.ComponentProps<"textarea">} props 
  * @returns {React.ReactNode}
  */
 export function TextArea7({ children, id, stacked = false, ...props }) {

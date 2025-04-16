@@ -9,7 +9,7 @@
 
 /**
  * "input" and "label" elements.
- * @param {MenuItemInput7Props | React.Component<"input">} props 
+ * @param {MenuItemInput7Props | React.ComponentProps<"input">} props 
  * @returns {React.ReactNode}
 */
 export function MenuItemInput7({ id, legend, type = "radio", children, ...props }) {

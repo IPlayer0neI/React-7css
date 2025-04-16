@@ -11,7 +11,7 @@ import { GroupBoxRadio7 } from "./GroupBoxRadio7";
 
 /**
  * A group box is a special control you can use to organize a set of controls. A group box is a rectangular frame with an optional label that surrounds a set of controls.
- * @param {GroupBox7Props | React.Component<"fieldset">} props
+ * @param {GroupBox7Props | React.ComponentProps<"fieldset">} props
  * @returns {React.ReactNode}
  */
 export function GroupBox7({ children, legend, list, name, ...props }) {

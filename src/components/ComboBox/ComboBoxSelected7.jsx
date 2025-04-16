@@ -5,7 +5,7 @@
 
 /**
  * "ul" element with role="listbox".
- * @param {ComboBoxSelected7Props | React.Component<"ul">}
+ * @param {ComboBoxSelected7Props | React.ComponentProps<"ul">}
  * @returns {React.ReactNode}
  */
 export function ComboBoxSelected7({ children, ...props }) {

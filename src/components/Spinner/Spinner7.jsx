@@ -7,7 +7,7 @@ import { conditionString } from "../../utils/ternaryDie";
 
 /**
  * A spinner or loader, also referred as ProgressRing, is a type of progress control to indicate that an operation is underway and its completion time is unknown.
- * @param {Spinner7Props | React.Component<"span">} props 
+ * @param {Spinner7Props | React.ComponentProps<"span">} props 
  * @returns {React.ReactNode}
  */
 export function Spinner7({ animate, ...props }) {

@@ -8,7 +8,7 @@ import { conditionString } from "../../utils/ternaryDie";
 
 /**
  * Every window has a boundary that defines its shape.
- * @param {WindowBody7Props | React.Component<"div">} props 
+ * @param {WindowBody7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
 export function WindowBody7({ children, space = false, ...props }) {

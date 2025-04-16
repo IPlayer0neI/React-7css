@@ -5,7 +5,7 @@
 
 /**
  * "legend" element.
- * @param {GroupBoxLegend7Props | React.Component<"legend">}
+ * @param {GroupBoxLegend7Props | React.ComponentProps<"legend">}
  * @returns {React.ReactNode}
  */
 export function GroupBoxLegend7({ children, ...props }){

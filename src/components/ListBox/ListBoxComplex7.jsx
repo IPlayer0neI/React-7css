@@ -23,7 +23,7 @@ import React from "react";
 
 /**
  * "ul" element with role="listbox".
- * @param {ListBoxComplex7Props | React.Component<"ul">}
+ * @param {ListBoxComplex7Props | React.ComponentProps<"ul">}
  * @returns {React.ReactNode}
  */
 export function ListBoxComplex7({ children, shadow = true, hover = true, list, ...props }) {

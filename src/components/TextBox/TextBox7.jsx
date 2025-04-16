@@ -11,7 +11,7 @@ import { FieldRow7 } from "../FieldRow/FieldRow7";
 
 /**
  * A text box (also referred to as an edit control) is a rectangular control where the user enters or edits text. It can be defined to support a single line or multiple lines of text.
- * @param {TextBox7Props | React.Component<"input">} props 
+ * @param {TextBox7Props | React.ComponentProps<"input">} props 
  * @returns {React.ReactNode}
  */
 export function TextBox7({ children, id, stacked = false, ...props }) {

@@ -5,7 +5,7 @@
 
 /**
  * "a" element.
- * @param {MenuItemText7Props | React.Component<"a">} props 
+ * @param {MenuItemText7Props | React.ComponentProps<"a">} props 
  * @returns {React.ReactNode}
  */
 export function MenuItemText7({ children, ...props }) {

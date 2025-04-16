@@ -10,7 +10,7 @@ import { conditionString } from "../../utils/ternaryDie";
 
 /**
  * "div" element with role="progressbar".
- * @param {ProgressBarProps | React.Component<"div">} props 
+ * @param {ProgressBarProps | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
 export function ProgressBar({

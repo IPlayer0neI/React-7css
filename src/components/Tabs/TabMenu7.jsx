@@ -8,7 +8,7 @@ import { TabMenuItem7 } from "./TabMenuItem7";
 
 /**
  * "menu" element with role="tablist".
- * @param {TabMenu7Props | React.Component<"menu">} props 
+ * @param {TabMenu7Props | React.ComponentProps<"menu">} props 
  * @returns {React.ReactNode}
  */
 export function TabMenu7({ children, list, ...props }) {

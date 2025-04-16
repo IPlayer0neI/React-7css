@@ -11,7 +11,7 @@ import { SearchButton7 } from "./SearchButton7";
 
 /**
  * With a Search box, users can quickly locate specific objects or text within a large set of data by filtering or highlighting matches.
- * @param {SearchBox7Props | React.Component<"div">} props 
+ * @param {SearchBox7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
 export function SearchBox7({ children, input = true, button = false, placeholder, ...props }) {

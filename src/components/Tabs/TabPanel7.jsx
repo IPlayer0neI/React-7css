@@ -5,7 +5,7 @@
 
 /**
  * "article" element with role="tabpanel".
- * @param {TabPanel7Props | React.Component<"article">} props 
+ * @param {TabPanel7Props | React.ComponentProps<"article">} props 
  * @returns {React.ReactNode}
  */
 export function TabPanel7({ children,  ...props }) {

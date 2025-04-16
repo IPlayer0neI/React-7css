@@ -7,7 +7,7 @@
 
 /**
  * "div" element with role="progressbar" and class "error"
- * @param {ProgressBarErrorProps | React.Component<"div">} props 
+ * @param {ProgressBarErrorProps | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
 export function ProgressBarError({

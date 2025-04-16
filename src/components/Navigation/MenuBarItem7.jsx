@@ -7,7 +7,7 @@ import { MenuItem7 } from "./MenuItem7";
 
 /**
  * "li" element
- * @param {MenuBarItem7Props | React.Component<"li">} props 
+ * @param {MenuBarItem7Props | React.ComponentProps<"li">} props 
  * @returns {React.ReactNode}
  */
 export function MenuBarItem7({ children, ...props }) {

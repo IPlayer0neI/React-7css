@@ -13,7 +13,7 @@ import { TreeViewNode7 } from "./TreeViewNode7";
 
 /**
  * A tree view control is a special list box control that displays a set of objects as an indented outline based on their logical hierarchical relationship.
- * @param {TreeView7Props | React.Component<"ul">} props 
+ * @param {TreeView7Props | React.ComponentProps<"ul">} props 
  * @returns {React.ReactNode}
  */
 export function TreeView7({ children, collapse = false, connector = false, container = true, list, root = false, ...props }) {

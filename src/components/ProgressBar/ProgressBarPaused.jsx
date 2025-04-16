@@ -7,7 +7,7 @@
 
 /**
  * "div" element with role="progressbar" and class "paused".
- * @param {ProgressBarPausedProps | React.Component<"div">} props 
+ * @param {ProgressBarPausedProps | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
 export function ProgressBarPaused({

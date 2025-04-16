@@ -12,7 +12,7 @@ import { TreeView7 } from "./TreeView7";
 
 /**
  * "li" element.
- * @param {TreeViewNode7Props | React.Component<"li">} props 
+ * @param {TreeViewNode7Props | React.ComponentProps<"li">} props 
  * @returns {React.ReactNode}
  */
 export function TreeViewNode7({ children, details = false, open = false, list, summary, ...props }) {

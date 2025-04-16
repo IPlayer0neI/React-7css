@@ -15,7 +15,7 @@ import { ComboBoxOption7 } from "./ComboBoxOption7";
 
 /**
  * A combo box is a combination of a standard list box or a drop-down list and an editable text box, thus allowing users to enter a value that isn't in the list.
- * @param {ComboBox7Props | React.Component<"div">} props 
+ * @param {ComboBox7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
 export function ComboBox7({ children, button = true, input = true, placeholder, id, list, ...props }) {

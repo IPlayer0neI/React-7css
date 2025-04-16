@@ -19,7 +19,7 @@ import { ListBoxOption7 } from "./ListBoxOption7";
 
 /**
  * With a list box, users can select from a set of values presented in a list that is always visible. 
- * @param {ListBox7Props | React.Component<"select">} props
+ * @param {ListBox7Props | React.ComponentProps<"select">} props
  * @returns {React.ReactNode}
  */
 export function ListBox7({ children, list, ...props }) {

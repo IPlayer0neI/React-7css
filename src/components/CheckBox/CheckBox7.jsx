@@ -10,7 +10,7 @@ import { FieldRow7 } from "../FieldRow/FieldRow7";
 
 /**
  * A check box represents an independent or non-exclusive choice.
- * @param {CheckBox7Props | React.Component<"input">} props
+ * @param {CheckBox7Props | React.ComponentProps<"input">} props
  * @returns {React.ReactNode}
  */
 export function CheckBox7({ children, label, id, field = true, ...props }) {

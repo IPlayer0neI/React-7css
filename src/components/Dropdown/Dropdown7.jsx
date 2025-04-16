@@ -19,7 +19,7 @@ import { GetArrayComponent } from "../../utils/GetArrayComponent";
 
 /**
  * A drop-down list box allows the selection of only a single item from a list. In its closed state, the control displays the current value for the control. The user opens the list to change the value.
- * @param {Dropdown7Props | React.Component<"select">}
+ * @param {Dropdown7Props | React.ComponentProps<"select">}
  * @returns {React.ReactNode}
  */
 export function Dropdown7({ children, list, ...props }) {

@@ -8,7 +8,7 @@ import { conditionString } from "../../utils/ternaryDie";
 
 /**
  * Menus are hierarchical lists of commands or options available to users in the current context.
- * @param {Menu7Props | React.Component<"ul">}
+ * @param {Menu7Props | React.ComponentProps<"ul">}
  * @returns {React.ReactNode}
  */
 export function Menu7({ children, hover = true, ...props }) {

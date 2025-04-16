@@ -5,7 +5,7 @@
 
 /**
  * "div" element with role="option".
- * @param {ComboBoxOption7Props | React.Component<"div">}
+ * @param {ComboBoxOption7Props | React.ComponentProps<"div">}
  * @returns {React.ReactNode}
  */
 export function ComboBoxOption7({ children, ...props }) {

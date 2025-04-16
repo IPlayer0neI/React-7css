@@ -5,7 +5,7 @@
 
 /**
  * "option" element
- * @param {DropdownOption7Props | React.Component<"option">} props
+ * @param {DropdownOption7Props | React.ComponentProps<"option">} props
  * @returns {React.ReactNode}
  */
 export function DropdownOption7({ children, ...props }) {

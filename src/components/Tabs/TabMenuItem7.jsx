@@ -5,7 +5,7 @@
 
 /**
  * "button" element with role="tab".
- * @param {TabMenuItem7Props | React.Component<"button">} props 
+ * @param {TabMenuItem7Props | React.ComponentProps<"button">} props 
  * @returns {React.ReactNode}
  */
 export function TabMenuItem7({ children, ...props }) {

@@ -14,7 +14,7 @@ import { TabPanel7 } from "./TabPanel7";
 
 /**
  * Tabs provide a way to present related information on separate labeled pages.
- * @param {Tabs7Props | React.Component<"section">} props 
+ * @param {Tabs7Props | React.ComponentProps<"section">} props 
  * @returns {React.ReactNode}
  */
 export function Tabs7({ children, listMenu, listPanel, ...props }) {

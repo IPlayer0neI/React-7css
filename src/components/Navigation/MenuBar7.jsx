@@ -10,7 +10,7 @@ import { MenuBarItem7 } from "./MenuBarItem7";
 
 /**
  * "ul" element with role="menubar".
- * @param {MenuBar7Props | React.Component<"ul">}
+ * @param {MenuBar7Props | React.ComponentProps<"ul">}
  * @returns {React.ReactNode}
  */
 export function MenuBar7({ children, hover = true, list, ...props }) {

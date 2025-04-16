@@ -7,7 +7,7 @@ import { FieldRow7 } from "../FieldRow/FieldRow7";
 
 /**
  * A slider, sometimes called a trackbar control, consists of a bar that defines the extent or range of the adjustment and an indicator that shows the current value for the control...
- * @param {Slider7Props | React.Component<"input">} props 
+ * @param {Slider7Props | React.ComponentProps<"input">} props 
  * @returns {React.ReactNode}
  */
 export function Slider7({ field = true, ...props }) {

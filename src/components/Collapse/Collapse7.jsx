@@ -8,7 +8,7 @@ import { CollapseSummary7 } from "./CollapseSummary7";
 
 /**
  * Users can show or hide additional information including data, options, or commands.
- * @param {Collapse7Props | React.Component<"details">} props
+ * @param {Collapse7Props | React.ComponentProps<"details">} props
  * @returns {React.ReactNode}
  */
 export function Collapse7({ children, summary, ...props }) {

@@ -9,7 +9,7 @@ import { FieldRow7 } from "../FieldRow/FieldRow7";
 
 /**
  * "input" element with "label" element.
- * @param {GroupBoxRadio7Props | React.Component<"input">} props
+ * @param {GroupBoxRadio7Props | React.ComponentProps<"input">} props
  * @returns {React.ReactNode}
  */
 export function GroupBoxRadio7({ id, label, children, ...props }) {
