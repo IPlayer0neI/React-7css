@@ -1,7 +1,12 @@
 /**
+ * @typedef {object} GroupBoxLegend7Props
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "legend" element.
- * @param {object} props
- * @param {React.ReactNode} [props.children]
+ * @param {GroupBoxLegend7Props | React.ComponentProps.<"legend">}
+ * @returns {React.ReactNode}
  */
 export function GroupBoxLegend7({ children, ...props }){
     return (

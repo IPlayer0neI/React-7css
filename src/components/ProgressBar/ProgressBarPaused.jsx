@@ -1,9 +1,14 @@
 /**
+ * @typedef {object} ProgressBarPausedProps 
+ * @property {number} [props.ariaValuemin]
+ * @property {number} [props.ariaValuemax] 
+ * @property {number} [props.ariaValuenow]
+ */
+
+/**
  * "div" element with role="progressbar" and class "paused".
- * @param {object} props
- * @param {number} [props.ariaValuemin]
- * @param {number} [props.ariaValuemax] 
- * @param {number} [props.ariaValuenow]
+ * @param {ProgressBarPausedProps | React.ComponentProps.<"div">} props 
+ * @returns {React.ReactNode}
  */
 export function ProgressBarPaused({
     ariaValuemin = 0,

@@ -1,7 +1,12 @@
 /**
+ * @typedef {object} ListBoxComplexOption7Props
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "li" element with role="option".
- * @param {object} props
- * @param {React.ReactNode} [props.children]
+ * @param {ListBoxComplexOption7Props | React.ComponentProps.<"li">}
+ * @returns {React.ReactNode}
  */
 export function ListBoxComplexOption7({ children, ...props }) {
     return (

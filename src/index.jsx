@@ -1,4 +1,4 @@
-import "7.css/dist/7.css"
+import React from "react"
 export { Ballon7 } from "./components/Balloon/Ballon7"
 export { Button7 } from "./components/Button/Button7"
 export { CheckBox7 } from "./components/CheckBox/CheckBox7"

@@ -1,7 +1,8 @@
 /**
- * @param {object} props
- * @param {React.ElementType} props.Component 
- * @param {string| string[]} props.value 
+ * @param {object} props 
+ * @property {React.ElementType} props.Component 
+ * @property {string| string[]} props.value 
+ * @returns {React.ReactNode}
  */
 export function GetArrayComponent({ Component, value }) {
     if (Array.isArray(value)) {

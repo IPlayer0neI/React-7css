@@ -1,9 +1,14 @@
 import { MenuItem7 } from "./MenuItem7";
 
 /**
+ * @typedef {object} MenuBarItem7Props 
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "li" element
- * @param {object} props
- * @param {React.ReactNode} [props.children]
+ * @param {MenuBarItem7Props | React.ComponentProps.<"li">} props 
+ * @returns {React.ReactNode}
  */
 export function MenuBarItem7({ children, ...props }) {
     return (

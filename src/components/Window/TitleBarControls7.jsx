@@ -1,7 +1,12 @@
 /**
+ * @typedef {object} TitleBarControls7Props 
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "p" element with class "title-bar-controls".
- * @param {object} props
- * @param {React.ReactNode} [props.children]
+ * @param {TitleBarControls7Props | React.ComponentProps.<"div">} props 
+ * @returns {React.ReactNode}
  */
 export function TitleBarControls7({ children, ...props }) {
     return (

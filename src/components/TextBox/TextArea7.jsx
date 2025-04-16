@@ -3,11 +3,16 @@ import { FieldRow7 } from "../FieldRow/FieldRow7";
 import { FieldRowStacked7 } from "../FieldRow/FieldRowStacked";
 
 /**
+ * @typedef {object} TextArea7Props 
+ * @property {React.ReactNode} [props.children]
+ * @property {string} [props.id] Automatically puts the "id" in the "textarea" and "label".
+ * @property {boolean} [props.stacked=false]  You can make use of the stacked value to position your label above the input instead of beside it.
+ */
+
+/**
  * "textarea" and "label" elements.
- * @param {object} props
- * @param {React.ReactNode} [props.children]
- * @param {string} [props.id] Automatically puts the "id" in the "textarea" and "label".
- * @param {boolean} [props.stacked=false]  You can make use of the stacked value to position your label above the input instead of beside it.
+ * @param {TextArea7Props | React.ComponentProps.<"textarea">} props 
+ * @returns {React.ReactNode}
  */
 export function TextArea7({ children, id, stacked = false, ...props }) {
     const FieldRowComponent = dieTernary(stacked, FieldRowStacked7, FieldRow7);

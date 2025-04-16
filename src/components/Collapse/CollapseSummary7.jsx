@@ -1,7 +1,12 @@
 /**
+ * @typedef {object} CollaspSummary7Props 
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "summary" element
- * @param {object} props 
- * @param {React.ReactNode} [props.children]
+ * @param {CollaspSummary7Props | React.ComponentProps.<"summary">}
+ * @returns {React.ReactNode}
  */
 export function CollapseSummary7({ children, ...props }) {
     return (

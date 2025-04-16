@@ -1,6 +1,7 @@
 /**
  * "button" element with aria-label="Close".
- * @param {object} props
+ * @param {React.ComponentProps.<"button">} props 
+ * @returns {React.ReactNode}
  */
 export function Close7({ ...props }) {
     return (

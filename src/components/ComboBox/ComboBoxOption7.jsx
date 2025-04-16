@@ -1,7 +1,12 @@
 /**
+ * @typedef {object} ComboBoxOption7Props 
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "div" element with role="option".
- * @param {object} props 
- * @param {React.ReactNode} [props.children]
+ * @param {ComboBoxOption7Props | React.ComponentProps.<"div">}
+ * @returns {React.ReactNode}
  */
 export function ComboBoxOption7({ children, ...props }) {
     return (

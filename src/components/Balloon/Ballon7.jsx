@@ -1,3 +1,5 @@
+import React from "react"
+
 /**
  * @property {object} Vertical
  * @property {"is-top"} top
@@ -19,11 +21,16 @@ const Horizontal = {
 }
 
 /**
+ * @typedef {object} Ballon7Props
+ * @property {React.ReactNode} [props.children]
+ * @property {("top" | "bottom")} [props.vertical="top"] To change the position of the balloon, which subsequently changes the positioning of its tail, combine the respective vertical values.
+ * @property {("left" | "right")} [props.horizontal="right"] To change the position of the balloon, which subsequently changes the positioning of its tail, combine the respective horizontal values.
+ */
+
+/**
  * A balloon is a small pop-up window that informs users of a non-critical problem or special condition in a control.
- * @param {object} props
- * @param {React.ReactNode} [props.children]
- * @param {("top" | "bottom")} [props.vertical="top"] To change the position of the balloon, which subsequently changes the positioning of its tail, combine the respective vertical values.
- * @param {("left" | "right")} [props.horizontal="right"] To change the position of the balloon, which subsequently changes the positioning of its tail, combine the respective horizontal values.
+ * @param {Ballon7Props | React.ComponentProps.<"div">} props
+ * @returns {React.ReactNode}
  */
 export function Ballon7({ children, vertical = "top", horizontal = "right", ...props }) {
     return (
@@ -38,3 +45,4 @@ export function Ballon7({ children, vertical = "top", horizontal = "right", ...p
         </div>
     )
 }
+<Ballon7 />

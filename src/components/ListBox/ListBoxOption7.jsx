@@ -1,7 +1,12 @@
 /**
+ * @typedef {object} ListBoxOption7Props
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "option" element.
- * @param {object} props
- * @param {React.ReactNode} [props.children]
+ * @param {ListBoxOption7Props}
+ * @returns {React.ReactNode}
  */
 export function ListBoxOption7({ children, ...props }) {
     return (

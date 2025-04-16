@@ -1,6 +1,7 @@
 import { conditionString } from "../../utils/ternaryDie";
 import { ListBoxComplexOption7 } from "./ListBoxComplexOption7";
 import { GetArrayComponent } from "../../utils/GetArrayComponent";
+import React from "react";
 
 /**
  * @typedef {Array}  ListBoxComplexItemArray
@@ -13,12 +14,17 @@ import { GetArrayComponent } from "../../utils/GetArrayComponent";
  */
 
 /**
+ * @typedef {object} ListBoxComplex7Props
+ * @property {React.ReactNode} [props.children]
+ * @property {boolean} [props.shadow=true] To add a drop shadow to the list box, use the shadow value.
+ * @property {boolean} [props.hover=true]  To add a hovering style on the list box items, use the hover value.
+ * @property {ListBoxComplexItem[]} [props.list] A list of "li" elements with role="option". An array can be used where the second value represents the value of "selected".
+ */
+
+/**
  * "ul" element with role="listbox".
- * @param {object} props
- * @param {React.ReactNode} [props.children]
- * @param {boolean} [props.shadow=true] To add a drop shadow to the list box, use the shadow value.
- * @param {boolean} [props.hover=true]  To add a hovering style on the list box items, use the hover value.
- * @param {ListBoxComplexItem[]} [props.list] A list of "li" elements with role="option". An array can be used where the second value represents the value of "selected".
+ * @param {ListBoxComplex7Props | React.ComponentProps.<"ul">}
+ * @returns {React.ReactNode}
  */
 export function ListBoxComplex7({ children, shadow = true, hover = true, list, ...props }) {
     return (

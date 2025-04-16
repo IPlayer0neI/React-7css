@@ -1,7 +1,12 @@
 /**
+ * @typedef {object} TabMenuItem7Props 
+ * @property {React.ReactNode} [props.children]
+ */
+
+/**
  * "button" element with role="tab".
- * @param {object} props
- * @param {React.ReactNode} [props.children]
+ * @param {TabMenuItem7Props | React.ComponentProps.<"button">} props 
+ * @returns {React.ReactNode}
  */
 export function TabMenuItem7({ children, ...props }) {
     return (

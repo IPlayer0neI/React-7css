@@ -4,14 +4,19 @@ import { ComboBoxSelected7 } from "./ComboBoxSelected7";
 import { ComboBoxOption7 } from "./ComboBoxOption7";
 
 /**
+ * @typedef {object} ComboBox7Props 
+ * @property {React.ReactNode} [props.children] 
+ * @property {string} [props.id] Automatically puts the "id" in the "input" and "label".
+ * @property {boolean} [props.input=true] Automatically place an "input".
+ * @property {boolean} [props.button=true] Automatically places a "button".
+ * @property {string} [props.placeholder] Placeholder property for "input".
+ * @property {string[]} [props.list] A list of "div" elements with role="option".
+ */
+
+/**
  * A combo box is a combination of a standard list box or a drop-down list and an editable text box, thus allowing users to enter a value that isn't in the list.
- * @param {object} props 
- * @param {React.ReactNode} [props.children] 
- * @param {string} [props.id] Automatically puts the "id" in the "input" and "label".
- * @param {boolean} [props.input=true] Automatically place an "input".
- * @param {boolean} [props.button=true] Automatically places a "button".
- * @param {string} [props.placeholder] Placeholder property for "input".
- * @param {string[]} [props.list] A list of "div" elements with role="option".
+ * @param {ComboBox7Props | React.ComponentProps.<"div">} props 
+ * @returns {React.ReactNode}
  */
 export function ComboBox7({ children, button = true, input = true, placeholder, id, list, ...props }) {
     return (

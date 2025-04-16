@@ -1,8 +1,13 @@
 /**
+ * @typedef {object} TreeViewSummary7Props 
+ * @property {React.ReactNode} [props.children] 
+ */
+
+/**
  * "summary" element.
- * @param {object} props
- * @param {React.ReactNode} [props.children]
-*/
+ * @param {TreeViewSummary7Props | React.ComponentProps.<"summary">} props 
+ * @returns {React.ReactNode}
+ */
 export function TreeViewSummary7({ children, ...props }) {
     return (
         <summary {...props}>

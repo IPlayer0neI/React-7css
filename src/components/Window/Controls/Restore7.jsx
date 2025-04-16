@@ -1,6 +1,7 @@
 /**
  * "button" element with aria-label="Restore".
- * @param {object} props
+ * @param {React.ComponentProps.<"button">} props 
+ * @returns {React.ReactNode}
  */
 export function Restore7({ ...props }) {
     return (

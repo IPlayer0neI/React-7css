@@ -2,20 +2,25 @@ import { GetArrayComponent } from "../../utils/GetArrayComponent";
 import { ListBoxOption7 } from "./ListBoxOption7";
 
 /**
- * @typedef {Array}  ListBoxComplexItemArray
+ * @typedef {Array}  ListBoxItemArray
  * @property {string} 0
  * @property {"selected"} 1
  */
 
 /**
- * @typedef {string|ListBoxComplexItemArray} ListBoxItem
+ * @typedef {string|ListBoxItemArray} ListBoxItem
  */
 
 /**
- * With a list box, users can select from a set of values presented in a list that is always visible.
- * @param {object} props
- * @param {React.ReactNode} [props.children]
- * @param {ListBoxItem[]} [props.list]  A list of "option" elements. An array can be used where the second value represents the value of "selected".
+ * @typedef {object} ListBox7Props
+ * @property {React.ReactNode} [props.children]
+ * @property {ListBoxItem[]} [props.list]  A list of "option" elements. An array can be used where the second value represents the value of "selected".
+ */
+
+/**
+ * With a list box, users can select from a set of values presented in a list that is always visible. 
+ * @param {ListBox7Props | React.ComponentProps.<"select">} props
+ * @returns {React.ReactNode}
  */
 export function ListBox7({ children, list, ...props }) {
     return (

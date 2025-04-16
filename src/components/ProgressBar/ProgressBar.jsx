@@ -1,12 +1,17 @@
 import { conditionString } from "../../utils/ternaryDie";
 
 /**
+ * @typedef {object} ProgressBarProps 
+ * @property {number} [props.ariaValuemin]
+ * @property {number} [props.ariaValuemax] 
+ * @property {number} [props.ariaValuenow]
+ * @property {boolean} [props.animate]
+ */
+
+/**
  * "div" element with role="progressbar".
- * @param {object} props
- * @param {number} [props.ariaValuemin]
- * @param {number} [props.ariaValuemax] 
- * @param {number} [props.ariaValuenow]
- * @param {boolean} [props.animate]
+ * @param {ProgressBarProps | React.ComponentProps.<"div">} props 
+ * @returns {React.ReactNode}
  */
 export function ProgressBar({
     ariaValuemin = 0,
