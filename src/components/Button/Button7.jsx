@@ -11,9 +11,9 @@ import { conditionString } from "../../utils/ternaryDie";
  * @param {Button7Props | React.ComponentProps<"button">} props
  * @returns {React.ReactNode}
  */
-export function Button7({ children, classDefault = false, ...props }) {
+export function Button7({ children, classDefault = false, className = "", ...props }) {
     return (
-        <button className={conditionString(classDefault, "default")} {...props}>
+        <button className={`${conditionString(classDefault, "default")} ${className}`} {...props}>
             {children}
         </button>
     )

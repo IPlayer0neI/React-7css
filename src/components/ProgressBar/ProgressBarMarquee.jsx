@@ -3,10 +3,10 @@
  * @param {React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
-export function ProgressBarMarquee({ ...props }) {
+export function ProgressBarMarquee({ className = "", ...props }) {
     return (
         <div
-            className="marquee"
+            className={`marquee ${className}`}
             role="progressbar"
             {...props}
         >

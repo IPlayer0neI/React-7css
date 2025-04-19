@@ -10,8 +10,8 @@ import { conditionString } from "../../utils/ternaryDie";
  * @param {Spinner7Props | React.ComponentProps<"span">} props 
  * @returns {React.ReactNode}
  */
-export function Spinner7({ animate, ...props }) {
+export function Spinner7({ animate, className = "", ...props }) {
     return (
-        <span className={`loader ${conditionString(animate, "animate")}`} {...props}></span>
+        <span className={`loader ${conditionString(animate, "animate")} ${className}`} {...props}></span>
     )
 }

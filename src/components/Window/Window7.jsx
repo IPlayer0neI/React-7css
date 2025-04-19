@@ -12,9 +12,9 @@ import { conditionString } from "../../utils/ternaryDie";
  * @param {Window7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
 */
-export function Window7({ children, active = true, glass = false, ...props }){
+export function Window7({ children, active = true, glass = false, className = "", ...props }){
     return (
-        <div className={`window ${conditionString(active, "active")} ${conditionString(glass, "glass")}`} {...props}>
+        <div className={`window ${conditionString(active, "active")} ${conditionString(glass, "glass")} ${className}`} {...props}>
             {children}
         </div>
     )

@@ -18,12 +18,13 @@ export function ProgressBar({
     ariaValuemax = 100,
     ariaValuenow = 100,
     animate,
+    className = "",
     ...props
 }) {
     return (
         <div
             role="progressbar"
-            className={conditionString(animate, "animate")}
+            className={`${conditionString(animate, "animate")} ${className}`}
             aria-valuemin={ariaValuemin}
             aria-valuemax={ariaValuemax}
             aria-valuenow={ariaValuenow}

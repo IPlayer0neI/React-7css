@@ -18,9 +18,9 @@ import { ComboBoxOption7 } from "./ComboBoxOption7";
  * @param {ComboBox7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
-export function ComboBox7({ children, button = true, input = true, placeholder, id, list, ...props }) {
+export function ComboBox7({ children, button = true, input = true, placeholder, id, list, className = "", ...props }) {
     return (
-        <div className="combobox" {...props}>
+        <div className={`${combobox} ${className}`} {...props}>
             {input && <ComboBoxInput7 id={id} placeholder={placeholder} />}
             {button && <ComboBoxButton7 />}
             {list && (

@@ -12,10 +12,10 @@ import { conditionString, dieTernary } from "../../utils/ternaryDie";
  * @param {MenuItem7Props | React.ComponentProps<"li">} props 
  * @returns {React.ReactNode}
  */
-export function MenuItem7({ children, imgLink, divider, ...props }) {
+export function MenuItem7({ children, imgLink, divider, className = "", ...props }) {
     return (
         <li
-            className={conditionString(divider, "has-divider")}
+            className={`${conditionString(divider, "has-divider")} ${className}`}
             role="menuitem"
             {...props}
         >

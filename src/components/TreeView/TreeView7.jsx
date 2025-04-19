@@ -16,15 +16,9 @@ import { TreeViewNode7 } from "./TreeViewNode7";
  * @param {TreeView7Props | React.ComponentProps<"ul">} props 
  * @returns {React.ReactNode}
  */
-export function TreeView7({ children, collapse = false, connector = false, container = true, list, root = false, ...props }) {
+export function TreeView7({ children, collapse = false, connector = false, container = true, list, root = false, className = "", ...props }) {
     return (
-        <ul className={
-            `
-            ${conditionString(root, "tree-view")} 
-            ${conditionString(container, "has-container")} 
-            ${conditionString(collapse, "has-collapse-button")} 
-            ${conditionString(connector, "has-connector")}
-            `}
+        <ul className={`${conditionString(root, "tree-view")} ${conditionString(container, "has-container")} ${conditionString(collapse, "has-collapse-button")} ${conditionString(connector, "has-connector")} ${className}`}
             {...props}
         >
             {

@@ -14,9 +14,9 @@ import { SearchButton7 } from "./SearchButton7";
  * @param {SearchBox7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
-export function SearchBox7({ children, input = true, button = false, placeholder, ...props }) {
+export function SearchBox7({ children, input = true, button = false, placeholder, className = "", ...props }) {
     return (
-        <div className="searchbox" {...props}>
+        <div className={`searchbox ${className}`} {...props}>
             {children}
             {input && <SearchInput7 placeholder={placeholder} />}
             {button && <SearchButton7 />}

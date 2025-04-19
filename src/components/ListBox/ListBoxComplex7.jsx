@@ -26,9 +26,9 @@ import React from "react";
  * @param {ListBoxComplex7Props | React.ComponentProps<"ul">}
  * @returns {React.ReactNode}
  */
-export function ListBoxComplex7({ children, shadow = true, hover = true, list, ...props }) {
+export function ListBoxComplex7({ children, shadow = true, hover = true, list, className = "", ...props }) {
     return (
-        <ul role="listbox" className={`${conditionString(shadow, "has-shadow")} ${conditionString(hover, "has-hover")}`} {...props}>
+        <ul role="listbox" className={`${conditionString(shadow, "has-shadow")} ${conditionString(hover, "has-hover")} ${className}`} {...props}>
             {children}
             {
                 list.map(function (option) {

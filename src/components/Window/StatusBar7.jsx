@@ -8,9 +8,9 @@
  * @param {StatusBar7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
-export function StatusBar7({ children, ...props }) {
+export function StatusBar7({ children, className = "", ...props }) {
     return (
-        <div className="status-bar" {...props}>
+        <div className={`status-bar ${className}`} {...props}>
             {children}
         </div>
     )

@@ -14,11 +14,12 @@ export function ProgressBarError({
     ariaValuemin = 0,
     ariaValuemax = 100,
     ariaValuenow = 100,
+    className = "",
     ...props
 }) {
     return (
         <div
-            className="error"
+            className={`error ${className}`}
             role="progressbar"
             aria-valuemin={ariaValuemin}
             aria-valuemax={ariaValuemax}

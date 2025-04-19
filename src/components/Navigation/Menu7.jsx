@@ -11,9 +11,9 @@ import { conditionString } from "../../utils/ternaryDie";
  * @param {Menu7Props | React.ComponentProps<"ul">}
  * @returns {React.ReactNode}
  */
-export function Menu7({ children, hover = true, ...props }) {
+export function Menu7({ children, hover = true, className = "", ...props }) {
     return (
-        <ul role="menu" className={conditionString(hover, "can-hover")} {...props}>
+        <ul role="menu" className={`${conditionString(hover, "can-hover")} ${className}`} {...props}>
             {children}
         </ul>
     )

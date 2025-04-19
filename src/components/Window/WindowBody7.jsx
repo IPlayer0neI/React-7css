@@ -11,9 +11,9 @@ import { conditionString } from "../../utils/ternaryDie";
  * @param {WindowBody7Props | React.ComponentProps<"div">} props 
  * @returns {React.ReactNode}
  */
-export function WindowBody7({ children, space = false, ...props }) {
+export function WindowBody7({ children, space = false, className = "", ...props }) {
     return (
-        <div className={`window-body ${conditionString(space, "has-space")}`} {...props}>
+        <div className={`window-body ${conditionString(space, "has-space")} ${className}`} {...props}>
             {children}
         </div>
     )

@@ -17,9 +17,9 @@ import { TabPanel7 } from "./TabPanel7";
  * @param {Tabs7Props | React.ComponentProps<"section">} props 
  * @returns {React.ReactNode}
  */
-export function Tabs7({ children, listMenu, listPanel, ...props }) {
+export function Tabs7({ children, listMenu, listPanel, className = "", ...props }) {
     return (
-        <section className="tabs" {...props}>
+        <section className={`tabs ${className}`} {...props}>
             {
                 listMenu && <TabMenu7 list={listMenu} />
             }

@@ -32,12 +32,10 @@ const Horizontal = {
  * @param {Ballon7Props | React.ComponentProps<"div">} props
  * @returns {React.ReactNode}
  */
-export function Ballon7({ children, vertical = "top", horizontal = "right", ...props }) {
+export function Ballon7({ children, vertical = "top", horizontal = "right", className = "", ...props }) {
     return (
         <div role="tooltip"
-            className={`
-        ${Vertical[vertical]}
-        ${Horizontal[horizontal]}   
+            className={`${Vertical[vertical]} ${Horizontal[horizontal]} ${className}  
         `}
             {...props}
         >

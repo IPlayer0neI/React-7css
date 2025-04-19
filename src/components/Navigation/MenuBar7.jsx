@@ -13,9 +13,9 @@ import { MenuBarItem7 } from "./MenuBarItem7";
  * @param {MenuBar7Props | React.ComponentProps<"ul">}
  * @returns {React.ReactNode}
  */
-export function MenuBar7({ children, hover = true, list, ...props }) {
+export function MenuBar7({ children, hover = true, list, className = "", ...props }) {
     return (
-        <ul role="menubar" className={conditionString(hover, "can-hover")} {...props}>
+        <ul role="menubar" className={`${conditionString(hover, "can-hover")} ${className}`} {...props}>
             {children}
             {
                 list && list.map(function (item, index) {
