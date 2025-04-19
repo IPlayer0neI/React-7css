@@ -60,3 +60,5 @@ export function App() {
     );
 }
 ```
+## 📚 Documentation
+Someday... It is possible to make a copy of the project and generate documentation with jsdoc.
