@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './production-preview/productionIndex.jsx',
+    entry: './developer-preview/developerIndex.jsx',
     mode: 'development',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -28,7 +28,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './production-preview/template/index.html',
+            template: './developer-preview/template/index.html',
         }),
     ],
     devServer: {

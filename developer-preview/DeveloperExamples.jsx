@@ -44,8 +44,8 @@ import { Maximize7 } from "../src/components/Window/Controls/Maximize7";
 import { Minimize7 } from "../src/components/Window/Controls/Minimize7";
 import { StatusBar7 } from "../src/components/Window/StatusBar7";
 import { StatusBarField7 } from "../src/components/Window/StatusBarField7";
-import { TitleBar7 } from "../src/components/Window/TitleBar7";
-import { TitleBarControls7 } from "../src/components/Window/TitleBarControls7";
+import { TitleBar7 } from "../src/components/Window/TitleBar7/TitleBar7";
+import { TitleBarControls7 } from "../src/components/Window/TitleBar7/TitleBarControls7";
 import { Window7 } from "../src/components/Window/Window7";
 import { WindowBody7 } from "../src/components/Window/WindowBody7";
 

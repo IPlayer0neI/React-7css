@@ -20,7 +20,7 @@ import { ComboBoxOption7 } from "./ComboBoxOption7";
  */
 export function ComboBox7({ children, button = true, input = true, placeholder, id, list, className = "", ...props }) {
     return (
-        <div className={`${combobox} ${className}`} {...props}>
+        <div className={`combobox ${className}`} {...props}>
             {input && <ComboBoxInput7 id={id} placeholder={placeholder} />}
             {button && <ComboBoxButton7 />}
             {list && (
